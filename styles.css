@@ -49,3 +49,19 @@ body {
   margin: auto;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  .manga-title {
+    font-family: var(--font-display);
+    font-size: clamp(3.75rem, 2.7273rem + 5.1136vw, 6rem);
+    font-weight: 900;
+    color: var(--black);
+    text-transform: uppercase;
+    align-self: flex-end;
+  }
+}
+
