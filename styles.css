@@ -300,3 +300,46 @@ footer {
   }
 }
 
+/* media queries */
+
+/* dispositivos de 640rem de anchura o menos */
+@media (width <=640px) {
+  body {
+    padding: 0 20px;
+    height: unset;
+  }
+
+  .content {
+
+    .manga-title {
+      align-self: center;
+    }
+  }
+
+  .hero-container {
+    grid-template-columns: 1fr;
+
+    .img-container {
+      height: 200px;
+      width: 200px;
+      order: 2;
+      margin: 200px 0;
+    }
+
+    & .form {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  footer {
+    h3 {
+      margin-bottom: 20px;
+    }
+
+    .credits {
+      grid-template-columns: 1fr;
+      row-gap: 20px;
+    }
+  }
+}
