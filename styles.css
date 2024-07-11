@@ -37,3 +37,15 @@ p {
   text-wrap: pretty;
 }
 
+/* styles */
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100dvh;
+  background-color: var(--merino);
+  max-width: 1024px;
+  margin: auto;
+}
+
