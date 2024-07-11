@@ -181,3 +181,34 @@ body {
   }
 }
 
+.release-date {
+  .palette-colors {
+    display: flex;
+    column-gap: 5px;
+
+    div {
+      margin-top: 10px;
+      height: 10px;
+      width: 60px;
+
+      &:nth-child(1) {
+        background-color: var(--black);
+      }
+
+      &:nth-child(2) {
+        background-color: var(--honolulu-blue);
+      }
+
+      &:nth-child(3) {
+        background-color: var(--venetian-red);
+      }
+    }
+  }
+
+  p {
+    font-family: var(--font-display);
+    font-size: 24px;
+    font-weight: 700;
+  }
+}
+
